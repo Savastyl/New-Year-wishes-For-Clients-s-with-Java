@@ -11,7 +11,7 @@ public class ForCustomers {
         String client = scanner.nextLine();
 
         System.out.println("Enter your company name:");
-        String yourcompany = scanner.nextLine();
+        String your_company = scanner.nextLine();
 
         System.out.println("Enter year number/s client work with:");
         String number = scanner.nextLine();
@@ -21,6 +21,6 @@ public class ForCustomers {
 
         scanner.close();
 
-        System.out.println("Happy New Year, " + client + " Your loyalty to " + yourcompany + " means more and more with " + number + " years. Thank you for choosing us, and may " + newyear + " be your best one yet!");
+        System.out.println("Happy New Year, " + client + " Your loyalty to " + your_company + " means more and more with " + number + " years. Thank you for choosing us, and may " + newyear + " be your best one yet!");
     }
 }
